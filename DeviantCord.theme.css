@@ -31,7 +31,7 @@ x/**
 .theme-light * {
 }
 .theme-light .scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9.hljs.css, .theme-light .scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9.hljs, .theme-light .markup-2BOw-j code, .theme-light .markup-2BOw-j.messageContent-2qWWxC, .theme-light .title-29uC1r.base-1x0h_U.size16-1P40sf, .theme-light .size16-1P40sf.count-34xWho, .theme-light .title-2CFvp_, .theme-light .description-Bw8krY, .theme-light .sampleLink-KPFu3I, .theme-light .colorMuted-HdFt4q.size14-e6ZScH.connectCTA-37DS2Y, .theme-light .inputLabel-vJ2Z0B span, .theme-light .title-2Dc-Cb, .theme-light .description-QF3836, .theme-light .helpText-h3r3wC, .theme-light .colorStandard-2KCXvj.size14-e6ZScH.defaultColor-1_ajX0.label-wQQoIq, .theme-light .sizeInfo-SKMPPw, .theme-light .size16-1P40sf.playingText-3KIkt6, .theme-light .container-1CE3eW .flex-1xMQg5 .colorHeaderPrimary-26Jzh-, .theme-light .container-1CE3eW .flex-1xMQg5 .colorHeaderSecondary-3Sp3Ft, .theme-light .container-1CE3eW .content-1LAB8Z .itemContainer-1LSFks .colorStandard-2KCXvj, .theme-light .container-1CE3eW .content-1LAB8Z .colorHeaderSecondary-3Sp3Ft, .theme-light .container-1CE3eW .flex-1xMQg5 .colorStandard-2KCXvj, .footerButton-ayFTfX .contents-18-Yxp, .inputDefault-_djjkz.input-cIJ7To.inputInner-2akrSS, .container-UC8Ug1 .colorStandard-2KCXvj, .header-3msK0M .title-3w8xhj, .footer-1NnaNd .footerTitle-2CYZch, .header-1BLHoL .title-LqAd9K, .header-287ONi .title-Z_XiOC {
-	text-shadow: 0px 0px 5px rgba(114,114,114,0.5) !important;
+	text-shadow: none !important;
 }
 /* ------ */
 
@@ -1355,7 +1355,7 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 }
 
 .iconWrapper-2OrFZ1{
-	margin: 0 7px;
+	margin: 0 2px;
 }
 
 .theme-dark .iconWrapper-2OrFZ1.clickable-3rdHwn.selected-1GqIat{
