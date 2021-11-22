@@ -1,4 +1,4 @@
-/**
+x/**
  * @name DeviantCord
  * @author Marda33 > beverage
  * @version 1 (Auto Update)
@@ -29,7 +29,7 @@
 	text-shadow: 0px 0px 5px rgba(0,0,0,0.6) !important;
 }
 .theme-light * {
-	text-shadow: 0px 0px 5px rgba(114,114,114,0.5);
+	text-shadow: 0px 0px 0px rgba(114,114,114,0.5);
 }
 .theme-light .scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9.hljs.css, .theme-light .scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9.hljs, .theme-light .markup-2BOw-j code, .theme-light .markup-2BOw-j.messageContent-2qWWxC, .theme-light .title-29uC1r.base-1x0h_U.size16-1P40sf, .theme-light .size16-1P40sf.count-34xWho, .theme-light .title-2CFvp_, .theme-light .description-Bw8krY, .theme-light .sampleLink-KPFu3I, .theme-light .colorMuted-HdFt4q.size14-e6ZScH.connectCTA-37DS2Y, .theme-light .inputLabel-vJ2Z0B span, .theme-light .title-2Dc-Cb, .theme-light .description-QF3836, .theme-light .helpText-h3r3wC, .theme-light .colorStandard-2KCXvj.size14-e6ZScH.defaultColor-1_ajX0.label-wQQoIq, .theme-light .sizeInfo-SKMPPw, .theme-light .size16-1P40sf.playingText-3KIkt6, .theme-light .container-1CE3eW .flex-1xMQg5 .colorHeaderPrimary-26Jzh-, .theme-light .container-1CE3eW .flex-1xMQg5 .colorHeaderSecondary-3Sp3Ft, .theme-light .container-1CE3eW .content-1LAB8Z .itemContainer-1LSFks .colorStandard-2KCXvj, .theme-light .container-1CE3eW .content-1LAB8Z .colorHeaderSecondary-3Sp3Ft, .theme-light .container-1CE3eW .flex-1xMQg5 .colorStandard-2KCXvj, .footerButton-ayFTfX .contents-18-Yxp, .inputDefault-_djjkz.input-cIJ7To.inputInner-2akrSS, .container-UC8Ug1 .colorStandard-2KCXvj, .header-3msK0M .title-3w8xhj, .footer-1NnaNd .footerTitle-2CYZch, .header-1BLHoL .title-LqAd9K, .header-287ONi .title-Z_XiOC {
 	text-shadow: 0px 0px 5px rgba(114,114,114,0.5) !important;
@@ -1270,10 +1270,13 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 }
 .theme-light .container-1r6BKw {
 	color: black;
+  font: bold 18pt Trebuchet MS,sans-serif;
+  letter-spacing: -1px;
+  color: #121516;
 	border: 1px solid rgba(60,60,60);
 	border-right: none !important;
 	box-shadow: inset 0 0 0 1px rgba(230, 230, 230, 0.6), 0 0 5px 5px rgba(64, 64, 64, 0.3);
-	background: linear-gradient(0deg, transparent 5%, rgba(211,211,211) 100%);
+	background: url(https://web.archive.org/web/20150907042150im_/http://st.deviantart.net/minish/gruzecontrol/bubbletop-gruze.gif);
 	background-color: rgba(154,154,154);
 	padding: 0 3px;
 	/*channel toolbar - light mode*/
@@ -2665,7 +2668,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 }
 .theme-light .container-3w7J-x, .theme-light .messages-3amgkR, .theme-light .scroller-1JbKMe, .theme-light .privateChannels-1nO12o, .theme-light .scroller-1JpcIc {
 	background: linear-gradient(0deg, transparent 40%, rgba(183,182,178) 100%) !important;
-	background-color: rgba(218,216,211) !important;
+	background-color: #d4dfd0 !important;
 	/*channel column BG - friends tab DM list BG, light mode*/
 }
 
@@ -2683,8 +2686,11 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	/*channel column header*/
 }
 .theme-light .container-1taM1r.clickable-25tGDB, .theme-light .searchBar-6Kv8R2 {
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO4AAAAwCAMAAAAhBLZPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACZUExURTw8POTk5OLi4uHh4ePj4+Dg4N/f397e3t3d3dvb29nZ2dfX19bW1tTU1NLS0tHR0dDQ0Nzc3M7OzszMzMvLy9ra2srKysjIyMfHx8bGxtjY2MXFxcPDw8LCwsHBwb+/v76+vtXV1by8vLq6urm5udPT07e3t7a2trW1tbS0tLKysrGxsbCwsK+vr8/Pz66urq2traysrKurq8JXZ70AAAAJcEhZcwAADr8AAA6/ATgFUyQAAADmSURBVGhD5dpnVoUwGAbh9wIhlBAgigXLFRW7WPa/OD/OcRfz7GD+j2AOKDpkHHtuzmG5heMoChUlh+VmniPLcLkVh+XmNUeeyzUczsm1HJZbBo6ylO84vJePHJZb9RxVpWrgsNwxcYyj6hOOulZ9ymG50xnHNGk657Dc5oKjadRccljufMUxz7jcaw7LbW842lbtLYflhiNHCAp3HJa73HMsi7oHjq5T98hhuesTx7oqPnPEqPjCsee+clhu/8bR9xreOYZBwwfHnvvJYbnbF8e2afvmsNz0w5GS0i/Hnovy/70ySH8Y7CDoY+QGygAAAABJRU5ErkJggg==);
-	box-shadow: 0 0 5px 5px rgba(64,64,64,0.2);
+	background: url(https://web.archive.org/web/20150907042150im_/http://st.deviantart.net/minish/gruzecontrol/bubbletop-gruze.gif);
+  font: bold 18pt Trebuchet MS,sans-serif;
+  letter-spacing: -1px;
+  color: #121516;
+  box-shadow: 0 0 5px 5px rgba(64,64,64,0.2);
 	/*channel column header - light mode*/
 }
 .sidebar-2K8pFh.theme-dark .container-1taM1r.clickable-25tGDB {
@@ -3916,15 +3922,14 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 }
 
 .theme-light .chat-3bRxxu {
-	background: linear-gradient(0deg, transparent 35%, rgba(227,226,225) 100%);
 	border-left: 1px solid rgba(60,60,60) !important;
     border-bottom: 1px solid rgba(60, 60, 60);
-	background-color: rgba(206,203,198);
+	background-color: #d4dfd0;
 	/*chat area underlay - light mode*/
 }
 .theme-light .scroller-2LSbBU {
 	background: linear-gradient(0deg, transparent 35%, rgba(227,226,225) 100%) !important;
-	background-color: rgba(206,203,198) !important;
+	background-color: #d4dfd0 !important;
 }
 .theme-light .wrapper-3V1W3E {
 	border-left: 1px solid rgba(60,60,60);
@@ -4507,7 +4512,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 .theme-light .cozy-3raOZG .timestamp-3ZCmNB {
 	font-size: 12px;
 	font-weight: 400;
-	color: #3c3c3c;
+	color: #000;
 	/*message timestamp - light mode*/
 }
 .timestamp-1E3uAL {
@@ -4515,9 +4520,10 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 }
 
 .username-1A8OIy {
-	font-size: 14px;
+	font-size: 16px;
   font-family: "Trebuchet MS";
   font-weight: bold;
+  letter-spacing: -1px;
 	/*chat area username font size*/
 }
 
